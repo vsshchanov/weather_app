@@ -1,0 +1,25 @@
+# Виртуальное окружение
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Файлы байт-кода Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Файлы IDE (например, VSCode, PyCharm)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Файлы, создаваемые упаковщиками (PyInstaller и др.)
+*.spec
+*.manifest
+
+# Логи и временные файлы
+*.log
+*.tmp
