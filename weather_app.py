@@ -247,7 +247,7 @@ class WeatherApp:
         self.root.geometry("600x700")
         self.root.resizable(False, False)
         
-        # Переменна для хранения тукещей иконки 
+        # Переменна для хранения текущей иконки 
         self.current_icon = None
         
         self.create_widgets()
