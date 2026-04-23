@@ -23,3 +23,7 @@ __pycache__/
 # Логи и временные файлы
 *.log
 *.tmp
+
+# Локальные данный приложения
+history.json
+last_city.json
