@@ -125,6 +125,10 @@ def get_forecast(city):
             return {'error': 'Город не неайден'}
         else:
             return {'error': f'Ошибка API: {response.status_code}'}
+    except requests.exceptions.ConnectionError:
+        return {'error': 'Ошибка подключения к интернету'}
+    except requests.exceptions.Timeout:
+        return {'error': 'Превышено время ожидания ответа'}
     except Exception as e:
         return {'error':f'Неизвестная ошибка: {str(e)}'}
 
